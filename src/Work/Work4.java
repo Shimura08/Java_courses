@@ -1,8 +1,7 @@
 package Work;
-
+//Даны три числа. Найти наименьшее из них.
 import java.util.Scanner;
 
-//Даны три числа. Найти наименьшее из них.
 public class Work4 {
     public static double minNum(double a, double b, double c){
         if( a <= b && a <= c){
@@ -14,7 +13,6 @@ public class Work4 {
         else{
             return c;
         }
-
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -32,5 +30,4 @@ public class Work4 {
 
         System.out.println("Minimum number: " + result);
     }
-
 }
