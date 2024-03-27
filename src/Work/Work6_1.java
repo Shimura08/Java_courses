@@ -12,7 +12,7 @@ package Work;
 //вікористовуючи інтерфейси
 import java.util.Scanner;
 
-public class Work6 {
+public class Work6_1 {
     public interface operations{
         double plus(double a, double b);
         double minus(double a, double b);
